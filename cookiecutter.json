@@ -1,0 +1,9 @@
+{
+    "presentation_title": "Title of Your Presentation",
+    "repo_name": "{{ cookiecutter.presentation_title|lower|replace(' ', '-')|replace(\"'\", '') }}",
+    "author_name": "Your Name",
+    "author_website": "Your website",
+    "company_website": "Your company website",
+    "twitter_username": "Twitter username"
+}
+
