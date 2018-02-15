@@ -292,6 +292,26 @@ section.has-dark-background a:hover {
   margin-right: 1em;
 }
 
+.reveal .aboutme-card {
+
+  display: inline-block;
+  padding: 20px;
+  width: 200px;
+  padding-top: 0;
+}
+
+.reveal .aboutme-card span {
+  display: inline-block;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.reveal .aboutme-logos {
+  margin: auto;
+  display: block;
+  height: 200px;
+}
+
 /*********************************************
  * PROGRESS BAR
  *********************************************/
