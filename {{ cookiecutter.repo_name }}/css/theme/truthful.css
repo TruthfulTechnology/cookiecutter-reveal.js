@@ -288,7 +288,8 @@ section.has-dark-background a:hover {
   border-top-color: #9C5CDC; }
 
 .reveal .logo {
-  height: 50px;
+  height: 80px;
+  margin-right: 1em;
 }
 
 /*********************************************
