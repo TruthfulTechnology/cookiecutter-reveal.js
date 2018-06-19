@@ -329,3 +329,27 @@ section.has-dark-background a:hover {
  *********************************************/
 .reveal .slide-number {
   color: #630FB7; }
+
+.no-controls .reveal .controls {
+  display: none !important;
+}
+
+/*********************************************
+ * CUSTOM FRAGMENTS
+ *********************************************/
+.reveal .slides section .fragment.bold,
+.reveal .slides section .fragment.bold-current {
+  opacity: 1;
+  visibility: inherit; }
+  .reveal .slides section .fragment.bold.visible,
+  .reveal .slides section .fragment.bold-current.current-fragment {
+    font-weight: bold; }
+
+
+/* Multi-columns layout */
+.container {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
